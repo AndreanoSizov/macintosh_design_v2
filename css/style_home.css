@@ -1,0 +1,202 @@
+/* fonts */
+/* 
+font-family: 'Myriad Pro';
+font-family: 'Roboto';
+font-family: 'Nunito Sans';
+font-family: 'Montserrat'; 
+*/
+
+
+
+/* steps */
+/* 
+1-folders and files structure
+2-download, install libs
+3-download, convert fonts
+4-link css files and script js files
+*/
+/* steps END */
+
+
+
+
+
+/* base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl {
+    margin-bottom: 0;
+}
+a {
+    color: #fff;
+}
+/* base styles end */
+
+
+
+/* HEADER */
+.header {
+    background-color: #e9e9e9;
+   
+}
+.header__logo {
+    display: block;
+    margin: 18px 0;
+}
+.header__nav-a:not(:last-child) {
+    margin-right: 30px;
+}
+.header__nav-link:hover {
+    color: #007d2f;
+}
+.header__nav-link {
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+}
+.header__content-title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin: 70px 0 30px;
+}
+.header__content-text {
+    font-size: 15px;
+    font-weight: 100;
+    color: #787878;
+    margin-bottom: 50px;
+    width: 385px;
+}
+.header__content-btn {
+    width: 190px;
+    height: 55px;
+    background: #007d2f;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/* HEADER END */
+
+
+/* MAIN */
+.design {
+    background: #007d2f;
+}
+.design__title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #171717;
+    margin: 115px 0 30px;
+}
+.design__text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 17px;
+    color: #fefefe;
+    margin-bottom: 100px;
+}
+
+.design__img {
+    width: 100%;
+}
+.design__links {
+    position: relative;
+}
+
+/* .design__links:hover .design__links::after {
+    opacity: 1;
+} */
+
+.design__links {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.design__links-overlay {
+    background: #42885d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    text-align: center;
+    
+}
+.design__links:hover .design__links-overlay{
+    opacity: 1;
+    background: rgba(66, 136, 93, 0.85);
+    transition: 0.5s;
+}
+.design__links-overimage {
+    width: 48px;
+    height: 30px;
+}
+
+/* MAIN END */
+
+/* FOOTER */
+.footer {
+    background: #141414;
+}
+.footer__inc {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 100px 0 25px;
+    
+}
+.footer__rights, .footer__designed {
+    font-family: 'Myriad Pro';
+
+}
+.footer__designed {
+    margin-bottom: 100px;
+}
+.footer__left p{
+    color: #bcbcbc;
+}
+.footer__middle a{
+    color: #b1b1b1;
+    font-family: 'Nunito Sans';
+}
+.footer__left-links {
+    color: #bcbcbc;
+}
+.footer__left-li:hover {
+    color: #007d2f;
+}
+.footer__middleul {
+    padding: 0 15px;
+}
+.footer__right {
+    font-family: 'Nunito Sans';
+}
+
+
+/* FOOTER END */ 
