@@ -217,6 +217,24 @@ a {
     text-transform: uppercase;
 }
 
+.numbers__links-overlay {
+    background: #42885d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    text-align: center;
+    
+}
+.numbers__links:hover .numbers__links-overlay{
+    opacity: 1;
+    background: rgba(66, 136, 93, 0.85);
+    transition: 0.5s;
+}
+.numbers__links-overimage {
+    width: 48px;
+    height: 30px;
+}
 
 .process__title {
     font-weight: 500;
@@ -239,8 +257,19 @@ a {
     background: url("../img/process__video-bg.jpg") no-repeat center / cover;
     box-shadow: inset 0 7200px 2px 0 rgba(32, 22, 0, 0.27) ;
     margin-bottom: 100px;
+    width: 100%;
+    height: 571px;
 }
-
+.process__btn {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #007d2f;
+    border:none;
+}
+.process__btn:hover {
+    background: #007d2f;
+}
 
 .designs {
     background: #f5f5f5;
@@ -304,9 +333,73 @@ a {
 }
 .carousel-indicators {
     top: 150px;
-    
-
 }
+/* SECTION CLIENTS */
+.clients {
+    padding: 65px 0 60px;
+}
+.clients__links {
+    display: inline-block;
+}
+/* SECTION CLIENTS END */
+/* SECTION NEEDPROJECT */
+
+.needproject {
+    background: #f5f5f5;
+}
+.needproject__title {
+    color: #1d1d1d;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 23px 0;
+}
+.needproject__text {
+    font-family: 'Myriad Pro';
+    color: #787878;
+    line-height: 1.5;
+    margin-bottom: 38px;
+}
+
+
+.form input {
+    color: #787878;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.form__comment {
+    margin-bottom: 0 !important;
+}
+.form__name {
+    margin-right: 30px;
+}
+.form__name, .form__email {
+    width: 50%;
+}
+.form__name, .form__email, .form__title-text {
+    height: 47px;
+}
+.form__comment {
+    height: 170px;
+}
+.form__btn {
+    padding: 20px 25px;
+    margin: 25px auto 100px;
+    background: #007d2f;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    width: 160px;
+}
+
+/* SECTION NEEDPROJECT END */
+
+
 /* MAIN END */
 /* FOOTER */
 .footer {

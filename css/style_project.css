@@ -153,7 +153,16 @@ a {
 }
 .breakfast__img {
     width: 50%;
+    object-fit: cover;
 }
+.breakfast__prv-text, .breakfast__next-text {
+    margin: 12px;
+}
+.breakfast__controls a {
+    display: block;
+    width: 200px;
+}
+
 
 .carousel-control-prev, .carousel-control-next {
     position: initial;
