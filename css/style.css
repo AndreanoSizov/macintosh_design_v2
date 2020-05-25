@@ -79,6 +79,9 @@ a {
     text-transform: uppercase;
     color: #191919;
 }
+.header__nav_through {
+    text-decoration: line-through;
+}
 .header__content-title {
     font-weight: 500;
     font-size: 36px;
