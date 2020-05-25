@@ -181,6 +181,9 @@ a {
 .footer__left p{
     color: #bcbcbc;
 }
+.footer__middle {
+    height: 100px;
+}
 .footer__middle a{
     color: #b1b1b1;
     font-family: 'Nunito Sans';

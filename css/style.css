@@ -305,7 +305,48 @@ a {
 
 }
 /* MAIN END */
+/* FOOTER */
+.footer {
+    background: #141414;
+}
+.footer__inc {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 100px 0 25px;
+    
+}
+.footer__rights, .footer__designed {
+    font-family: 'Myriad Pro';
 
+}
+.footer__designed {
+    margin-bottom: 100px;
+}
+.footer__left p{
+    color: #bcbcbc;
+}
+.footer__middle {
+    height: 100px;
+}
+.footer__middle a{
+    color: #b1b1b1;
+    font-family: 'Nunito Sans';
+}
+.footer__left-links {
+    color: #bcbcbc;
+}
+.footer__left-li:hover {
+    color: #007d2f;
+}
+.footer__middleul {
+    padding: 0 15px;
+}
+.footer__right {
+    font-family: 'Nunito Sans';
+}
+
+
+/* FOOTER END */ 
 
 
 /* TO DO LIST */

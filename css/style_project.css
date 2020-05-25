@@ -51,11 +51,9 @@ dl {
     margin-bottom: 0;
 }
 a {
-    color: #fff;
+    color: #000;
 }
 /* base styles end */
-
-
 
 /* HEADER */
 .header {
@@ -105,110 +103,66 @@ a {
 
 /* HEADER END */
 
-/* WOODS */
-.woods {
-    background: #323232;
-    padding: 112px 0;
+/* MAIN */
+/* BREAKFAST */
+.breakfast {
+    background: #f6f6f6;
 }
-.woods__title {
-    font-weight: 500;
-    font-size: 61px;
-    color: #fff ;
-    line-height: 1;
-    margin-bottom: 20px;
-}
-.woods__text {
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Nunito Sans';
-    line-height: 1.5;
-}
-/* WOODS END */
-/* NUMBERS */
-.numbers {
-    background: #007d2f;
-}
-.numbers__images {
-    background: #838383;
-}
-.numbers__item {
-    text-align: center;
 
+.breakfast__title {
+    font-size: 38px;
+    color:#171717 ;
+    font-weight: 700;
 }
-.numbers__icons {
-    margin: 75px 0 7px;
-}
-.numbers__number {
-    font-size: 18px;
-    color: #fff;
-}
-.numbers__about {
-    font-size: 12px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0px 0 80px;
-}
-/* NUMBERS END */
-/* ABOUT */
-.about {
-    background: #f5f5f5;
-    height: 770px;
-}
-.about__text {
-    width: 540px;
-    font-size: 14px;
+
+.breakfast__text {
     color: #787878;
     font-family: 'Nunito Sans';
+    line-height: 1.5;
+    margin-top: 30px;
 }
-.about__title {
-    width: fit-content;
-    font-size: 30px;
-    font-weight: 500;
+.breakfast__text span {
+    display: block;
+}
+.breakfast__container {
+    width: 47%;
+    margin: 0 auto;
+}
+.breakfast__info {
+    margin-top: 60px;
+}
+.breakfast__p {
+    font-family: 'Nunito Sans';
+    color: #787878;
+}
+.breakfast__p span {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
     color: #171717;
-    margin: 140px 0 35px;
+    padding-right: 6px;
+}
+.breakfast__controls {
+    background:#007d2f;
+}
+.breakfast__control-img {
+    margin: 40px 0;
+}
+.breakfast__left {
+    width: 50%;
+    padding: 105px 0;
+}
+.breakfast__img {
+    width: 50%;
 }
 
-.about__text1, .about__text2 {
-    color: #787878;
-    font-family: 'Nunito Sans';
-    line-height: 1.5;
+.carousel-control-prev, .carousel-control-next {
+    position: initial;
 }
-.about__text2 {
-    margin: 34px 0;
-}
-.about__img {
-    position: absolute;
-    left: 0;
-}
+/* BREAKFAST END */
+/* MAIN END */
 
-.about__down-laptop {
-    width: 100%;
-}
-/* ABOUT END */
-/* PROJECT */
-.project__title {
-    margin: 104px 0 34px;
-    font-weight: 500;
-    font-size: 30px;
-    color: #1d1d1d;
-}
-.project__btn {
-    margin: 60px 0 120px;
-    background: #007d2f;
-    padding: 22px 50px 22px 50px;
-    font-weight: 500;
-    font-size: 12px;
-    color: #fff;
-    border: 0;
-    text-transform: uppercase;
-}
-.project__text {
-    font-family: 'Nunito Sans';
-    color: #787878;
-    line-height: 1.5;
-}
 
-/* PROJECT END */
+
 /* FOOTER */
 .footer {
     background: #141414;
@@ -255,4 +209,4 @@ a {
 /* FOOTER END */ 
 
 
-/*  Как правильно задать ширину секции About, для фона? */
+/* Как поставить на паузу карусель в chrome? */
