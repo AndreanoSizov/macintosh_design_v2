@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .footer__middle {
+        text-align: center;
+        align-content: center;
+    }
+}
+@media (max-width: 575px) {
+    .footer__left {
+        text-align: center !important;
+    }
+}

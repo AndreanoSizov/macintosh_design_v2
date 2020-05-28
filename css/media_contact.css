@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    /* .footer__middle {
+        text-align: center;
+        align-content: center;
+    } */
+    .footer__right {
+        justify-content: center;
+    }
+    .footer__designed {
+        margin-bottom: 30px;
+    }
+    .footer__inc {
+        margin: 20px 0 10px;
+    }
+}
+@media (max-width: 575px) {
+ 
+   
+}

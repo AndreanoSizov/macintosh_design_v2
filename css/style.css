@@ -409,6 +409,7 @@ a {
     color: #fff !important;
     font-weight: 500;
     margin: 100px 0 25px;
+
     
 }
 .footer__rights, .footer__designed {
@@ -447,8 +448,17 @@ a {
 
 /* TO DO LIST */
 /* Сделать бургер меню для nav */
-/* Font - WorkSans Regular in footer */
+
+
+/*  ВОПРОСЫ */
+
+/* Правильно ли сдела Overlay в секции Numbers? Можно ли через ::before или ::after?*/
+/* Как не дублировать код повторяющихся блоков из страницы в страницу? */
 /* Меняется font-weigh после замены текста */
-/* Выровнить картники секции numbers */
-/* Как остановить карусель для теста в chrome */
+/* Как остановить / поставить на паузу карусель для теста в chrome */
+/* Как правильно задать ширину секции About страница About, для фона? */
+/* ok - Font - WorkSans Regular in footer +44*** * - OK в google fonts - Work Sans/
+/* ok - Выровнить картники секции numbers */
+
+
 
